@@ -1,5 +1,14 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-	println("coloque suas resoluções nesse arquivo :D")
+
+	// exercício 1
+	var numero_um int
+	numero_um = 1
+	fmt.Prinlt(numero_um)
+
 }
