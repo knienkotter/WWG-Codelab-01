@@ -18,9 +18,17 @@ func main() {
 	soma := A + B
 	subtracao := A - B
 
+	// exercício 3
+
+	multiplicacao := A * B
+	divisao := A / B
+
+	// exercício 4
 	fmt.Println("A: ", A)
 	fmt.Println("B: ", B)
 	fmt.Println("soma: ", soma)
 	fmt.Println("subtracao: ", subtracao)
+	fmt.Println("Multiplicação: ", multiplicacao)
+	fmt.Println("Divisão: ", divisao)
 
 }
