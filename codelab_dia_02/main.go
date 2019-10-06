@@ -37,4 +37,12 @@ func main() {
 		fmt.Println("ACESSO NEGADO")
 	}
 
+	fmt.Println("Exercicio 4")
+
+	variavel_ := 5.98
+
+	tipodavariavel := fmt.Sprintf("%T", variavel_)
+
+	fmt.Println("O tipo da variavel eh: ", tipodavariavel)
+
 }
