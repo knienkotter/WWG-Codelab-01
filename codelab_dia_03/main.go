@@ -6,6 +6,8 @@ func main() {
 
 	println("Exercício 1 ")
 	exercicio1()
+	println("Exercício 2 ")
+	exercicio2()
 
 }
 
@@ -19,5 +21,18 @@ func exercicio1() {
 		if i % 3 == 0 {
 			fmt.Println(i)
 		}
+	}
+}
+
+func exercicio2()  {
+	/*
+		Escreva um programa que contenha uma função que
+		teste se um dado número inteiro é múltiplo de 5 ou não.
+	 */
+	numero := 55
+	if numero % 5 == 0 {
+		fmt.Printf("O numero %v é multiplo de 5", numero)
+	} else {
+		fmt.Printf("O numero %v não é multiplo de 5", numero)
 	}
 }
