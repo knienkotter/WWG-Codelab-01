@@ -69,6 +69,7 @@ func main() {
 	fmt.Printf("\nbase 16: %#X \t%#X \t%#X\n", X, Y, Z)
 	fmt.Println("_______________________")
 
-
+	// Exercicio 7
+	// Nao 'e possivel compilar o programa com variaveis nao utilizadas
 
 }
