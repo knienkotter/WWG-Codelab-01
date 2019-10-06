@@ -1,9 +1,10 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-<<<<<<< Updated upstream
-	println("coloque suas resoluções nesse arquivo :D")
-=======
 
 	// exercício 1
 	var numero_um int
@@ -22,7 +23,6 @@ func main() {
 	fmt.Println("Subtração: ", subtracao)
 
 	// exercício 3
-
 	multiplicacao := A * B
 	divisao := A / B
 	fmt.Println("Multiplicação: ", multiplicacao)
@@ -32,5 +32,5 @@ func main() {
 	// exercício 4
 	fmt.Printf("Soma: %v \nSubtração: %v \nMultiplicação: %v \nDivisão: %v",
 		soma, subtracao, multiplicacao, divisao)
->>>>>>> Stashed changes
+
 }
