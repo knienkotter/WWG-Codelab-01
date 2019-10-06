@@ -54,5 +54,21 @@ func main() {
 	fmt.Println("Total das compras: ", totalCompras)
 	fmt.Println("_______________________")
 
+	// Exercicio 6
+	// nao eh possivel utilizar palavras reservadas
+
+	// Exercicio 7
+	var X int = 15
+	Y := 31
+	var Z int
+	Z = 47
+
+	fmt.Println("\n\t X \t Y \t Z")
+	fmt.Printf("base 2 : %b \t%b \t%b", X, Y, Z)
+	fmt.Printf("\nbase 10: %d \t%d \t%d", X, Y, Z)
+	fmt.Printf("\nbase 16: %#X \t%#X \t%#X\n", X, Y, Z)
+	fmt.Println("_______________________")
+
+
 
 }
