@@ -27,4 +27,14 @@ func main() {
 		fmt.Println("Esta apto")
 	}
 
+	fmt.Println("Exercicio 3")
+	senha := "aprj57nkk"
+	entrada := "fhkfh"
+
+	if senha == entrada {
+		fmt.Println("ACESSO PERMITIDO")
+	} else {
+		fmt.Println("ACESSO NEGADO")
+	}
+
 }
