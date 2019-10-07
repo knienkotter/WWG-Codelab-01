@@ -10,6 +10,9 @@ func main() {
 	exercicio2()
 	println("Exercício 3 ")
 	exercicio3(4, 6, 18)
+	println("Exercício 4 ")
+	exercicio4(4, 26)
+	exercicio4(3, 7, 92)
 
 }
 
@@ -47,4 +50,17 @@ func exercicio3(a int, b int , c int)  {
 	 */
 	soma := a + b + c
 	fmt.Println("Resultado da soma: ", soma)
+}
+
+func exercicio4(v ...int)  {
+	/*
+		Escreva um programa que contenha uma função que
+		some n operandos e que printe o resultado na tela.
+	 */
+	fmt.Print(v, " ")
+	total := 0
+	for _, num := range v {
+		total += num
+	}
+	fmt.Println(total)
 }
