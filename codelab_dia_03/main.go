@@ -8,6 +8,8 @@ func main() {
 	exercicio1()
 	println("Exercício 2 ")
 	exercicio2()
+	println("Exercício 3 ")
+	exercicio3(4, 6, 18)
 
 }
 
@@ -35,4 +37,14 @@ func exercicio2()  {
 	} else {
 		fmt.Printf("O numero %v não é multiplo de 5", numero)
 	}
+	fmt.Println()
+}
+
+func exercicio3(a int, b int , c int)  {
+	/*
+		Escreva um programa que contenha uma função
+		que some três operandos e que printe o resultado na tela.
+	 */
+	soma := a + b + c
+	fmt.Println("Resultado da soma: ", soma)
 }
